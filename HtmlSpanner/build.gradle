@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.artifactory-upload'
 
 // This is the library version used when deploying the artifact
 version = "1.0.3"
@@ -19,8 +18,7 @@ buildscript {
         // artifactory
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:3.1.1'
-        // bintray
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+        
         classpath 'com.github.dcendents:android-maven-plugin:1.2'
     }
 }
